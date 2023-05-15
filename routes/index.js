@@ -17,9 +17,5 @@ router.get('/interest', (req, res) => {
   var interest = ["movies", "music", "tourism", "games", "food"];
   res.render ('interest', { interest : interest });
 })
-router.get('/interest', (req, res) => {
-  var interest = ["movies", "music", "tourism", "games", "food"];
-  res.render ('interest', { interest : interest });
-})
 
 module.exports = router;
